@@ -1,0 +1,44 @@
+.transactions {
+width: 450px;
+margin: 20px auto;
+border: 2px solid gray;
+box-shadow: 0 1px 2px #d1d1d1;
+}
+
+.transactions thead {
+    background-color: rgb(6, 82, 78);
+    border: none;
+    text-transform: uppercase;
+}
+
+.transactions th {
+    color: white;
+    border: none;
+}
+
+.transactions td {
+    color: green;
+    text-align: center;
+border-left: 0;
+border-right: 0;
+}
+
+.transactions tr {
+    line-height: 30px;
+    border-bottom: 1px solid lightslategray;
+    border: 0;
+}
+
+.transactions td:first-child {
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.transactions tr:nth-child(even) td{
+    background: #f6f6f6;
+    border-bottom:0;
+  }
+
+  .transactions tr:hover td{
+    background: #f2f2f2;
+  }
