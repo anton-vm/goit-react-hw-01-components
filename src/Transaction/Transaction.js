@@ -7,7 +7,7 @@ import table from "./Transaction.module.css"
 const Transaction = () => {
     console.log(transaction);
     return (
-        <table class={table.transactions}>
+        <table className={table.transactions}>
   <thead>
     <tr>
       <th>Type</th>

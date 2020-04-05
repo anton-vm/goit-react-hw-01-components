@@ -1,6 +1,7 @@
 {
   "name": "goit-react-hw-01-components",
   "version": "0.1.0",
+  "homepage": "https://anton-vm.github.io/goit-react-hw-01-components",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -36,7 +37,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://anton-vm.github.io/goit-react-hw-01-components",
+
   "devDependencies": {
     "webpack-cli": "^3.3.11"
   }
