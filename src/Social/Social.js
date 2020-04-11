@@ -1,10 +1,9 @@
 import React from 'react';
-import user from './user.json'
+import user from '../db/user.json'
 import SocialCard from "./SocialCard"
 import './Social.css'
 
 const Social = () => {
-    console.log(user);
     return (
 <SocialCard 
     name={user.name}
