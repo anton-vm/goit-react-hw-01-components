@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <Social />
-      <Statistic title={"Statistic Title"} data={dataStatistic}/>
+      <Statistic title="Statistic Title" data={dataStatistic}/>
       <Friends friends={friends} />
       <Transaction />
     </>

@@ -13,7 +13,7 @@ const StatisticCard = ({label, percentage}) => {
     return (
     <StatItem>
       <StatLabel>{label}</StatLabel>
-      <StatPercentage>{percentage}</StatPercentage>
+      <StatPercentage>{percentage}%</StatPercentage>
     </StatItem>
     );
 

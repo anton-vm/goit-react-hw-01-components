@@ -23,7 +23,11 @@ const Statistic = ({ data, title }) => {
     </StatSection>
   );
   Statistic.propTypes ={
-    data: PropTypes.object,
+    data: PropTypes.shape({
+      id: PropTypes.number.isRequired,
+      label: PropTypes.string,
+      percentage: PropTypes.number,
+    }),
     title: PropTypes.string,
   };
 

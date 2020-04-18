@@ -1,7 +1,8 @@
 import React from "react";
 import FriendCard from "./FriendCard";
 import classes from "./Friends.module.css";
-// import PropTypes from "prop-types";
+import PropTypes from "prop-types"
+
 
 const FriendList = ({ friends }) => {
   return (
@@ -16,10 +17,17 @@ const FriendList = ({ friends }) => {
       ))}
     </ul>
   );
-  // FriendList.propTypes = {
-  //   friends: PropTypes.object,
-  // }
+  FriendList.propTypes = {
+    friends: PropTypes.arrayOf(
+      PropTypes.shape({
+        id: PropTypes.number.isRequired,
+        avatar: PropTypes.string,
+        name: PropTypes.string.isRequired,
+        isOn: PropTypes.bool.isRequired,
+      }),
+    )
+    }
+  }
 
-};
 
 export default FriendList;
